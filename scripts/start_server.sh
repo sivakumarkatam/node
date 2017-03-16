@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo service npm start
+node /home/ec2-user/www/hello.js
