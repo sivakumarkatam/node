@@ -1,2 +1,1 @@
-cd /home/ec2-user/www/
-npm start
+node /home/ec2-user/www/hello.js
