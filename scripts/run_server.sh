@@ -1,1 +1,3 @@
-node /home/ec2-user/www/hello.js
+#!/bin/sh
+cd /home/ec2-user/www/
+node hello
