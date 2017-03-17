@@ -5,7 +5,5 @@ files:
     destination: /home/ec2-user/www
 hooks:    
   ApplicationStart:
-  - source: /home/ec2-user/.bash_profile
-    destination: /home/ec2-user/www
-  - location: scripts/run_server
+  - location: scripts/run_server.sh
     runas: root
