@@ -6,4 +6,4 @@ files:
 hooks:    
   ApplicationStart:
   - location: scripts/run_server
-    runas: ec2-user
+    runas: root
