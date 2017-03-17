@@ -7,7 +7,7 @@ var myServer = http.createServer(function (request, response) {
   response.end("Hello Node\n");
 }); //create a server
 
-Bind server to a port
+//Bind server to a port
 myServer.listen(4000);
 
 console.log("Go to localhost:4000 on your browser");
