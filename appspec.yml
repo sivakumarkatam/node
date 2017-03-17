@@ -3,6 +3,7 @@ os: linux
 files:
   - source: /hello.js
     destination: /home/ec2-user/www
+  - source /home/ec2-user/.bash_profile
 hooks:    
   ApplicationStart:
   - location: scripts/run_server
