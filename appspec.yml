@@ -5,5 +5,5 @@ files:
     destination: /home/ec2-user/www
 hooks:
   Applicationstart:
-    - location: scripts/start_server.sh
+    - location: scripts/start_server
       runas: ec2-user
