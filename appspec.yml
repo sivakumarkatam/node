@@ -4,6 +4,6 @@ files:
   - source: /hello.js
     destination: /home/ec2-user/www
 hooks:
-  Applicationstart:
+  Applicationrun:
     - location: scripts/start_server
       runas: ec2-user
