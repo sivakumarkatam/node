@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /hello.js
-    destination: /home/ec2-user/
+    destination: /home/ec2-user/wwww
 hooks:    
   ApplicationStart:
   - location: scripts/run_server.sh
